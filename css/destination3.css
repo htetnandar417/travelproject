@@ -1,0 +1,42 @@
+.header{
+	background-image:url('../img/yangon-bg.jpg');
+}
+
+.section-des .slider{
+	background-image:url('../img/yangon1.jpg');
+}
+
+@keyframes slide{
+
+	0%{
+		background-image:url('../img/yangon5.jpg');
+	}
+
+	15%{
+		background-image:url('../img/yangon6.jpg');
+	}
+
+	30%{
+		background-image:url('../img/yangon1.jpg');
+	}
+
+	45%{
+		background-image:url('../img/yangon2.jpg');
+	}
+
+	60%{
+		background-image:url('../img/yangon3.jpg');
+	}
+
+	75%{
+		background-image:url('../img/yangon4.jpg');
+	}
+
+	90%{
+		background-image:url('../img/yangon7.jpg');
+	}
+
+	100%{
+		background-image:url('../img/yangon8.jpg');
+	}
+}

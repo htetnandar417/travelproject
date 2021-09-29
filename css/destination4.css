@@ -1,0 +1,18 @@
+.header{
+	background-image:url('../img/golden-rock.jpg');
+}
+
+.section-des .slider{
+	background-image:url('../img/goldenrock1.jpg');
+}
+
+@keyframes slide{
+
+	50%{
+		background-image:url('../img/goldenrock2.jpg');
+	}
+
+	100%{
+		background-image:url('../img/goldenrock1.jpg');
+	}
+}

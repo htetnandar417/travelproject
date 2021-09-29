@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	/*box-sizing:border-box;*/
+}
+
+/*------------------ Header Section -------------------*/
+
+.header{
+	width:100%;
+	height:455px;
+	background-image:url('../img/pkgbg1.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.header h1{
+	z-index:2;
+	color:#fff;
+	font-size:40px;
+	text-shadow: 2px 2px 5px #000;
+}
+
+/*------------------ Destination Section -------------------*/
+
+.section-pkg{
+	margin:30px 100px 30px 100px;
+	padding-bottom:30px;
+	border-bottom:1px solid #DCDCDC;
+}
+
+.section-pkg .heading{
+	font-size:20px;
+	color:#383736;
+}
+
+.section-pkg .p-container{
+	width:810px;
+	color:#8c9597;
+	font-size:15px;
+	padding:30px 0 0 0;
+	line-height:25px;
+	float:left;
+}
+
+.p-container ul{
+	padding-left:60px;
+}
+
+.section-pkg img{
+	float:left;
+	padding:30px 0 0 50px;
+}
+
+.section-pkg a{
+	width:150px;
+	display:block;
+	text-decoration:none;
+	background-color:#18378e;
+	color:#fff;
+	border-radius:5px;
+	font-size:14px;
+	padding:13px 5px;
+	text-align:center;
+	clear:both;
+}
+
+.section-pkg a:hover{
+	background:#012656;
+}
+
+/*------------------ Journey Section -------------------*/
+
+.section-journey{
+	padding:20px 80px 0 100px;
+}
+
+.section-journey h4{
+	font-size:20px;
+    color:#383232;
+    padding-bottom:30px;
+}
+
+hr{
+	border:1px solid #18378e;
+	clear:both;
+}
+
+.box .container{
+	width:810px;
+	float:left;
+	padding:50px 0 20px 0;
+}
+
+.container h5{
+	font-size:17px;
+	color:#4f4b4b;
+	margin-bottom:30px;
+}
+
+.container p{
+	color:#3f3b3b;
+	font-size:15px;
+}
+
+
+.box img{
+	width:350px;
+	float:left;
+	padding:20px 0;
+}

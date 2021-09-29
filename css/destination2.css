@@ -1,0 +1,42 @@
+.header{
+	background-image:url('../img/mandalay-bg.jpg');
+}
+
+.section-des .slider{
+	background-image:url('../img/mandalay1.png');
+}
+
+@keyframes slide{
+
+	0%{
+		background-image:url('../img/mandalay5.jpg');
+	}
+
+	15%{
+		background-image:url('../img/mandalay6.jpg');
+	}
+
+	30%{
+		background-image:url('../img/mandalay1.png');
+	}
+
+	45%{
+		background-image:url('../img/mandalay2.jpg');
+	}
+
+	60%{
+		background-image:url('../img/mandalay3.jpg');
+	}
+
+	75%{
+		background-image:url('../img/mandalay4.jpg');
+	}
+
+	90%{
+		background-image:url('../img/mandalay7.jpg');
+	}
+
+	100%{
+		background-image:url('../img/mandalay8.jpg');
+	}
+}
